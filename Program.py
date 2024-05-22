@@ -1,9 +1,3 @@
-COLAB LINK TO THE PROGRAM -------------------------------------------------------------
-https://colab.research.google.com/drive/1YPHodZDf3GtmEUMKDkemkTK7NoXOBj-q?usp=sharing 
----------------------------------------------------------------------------------------
-
-							PROGRAM
---------------------------------------------------------------------------------------------------------
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
