@@ -1,0 +1,52 @@
+							Output Result Report
+--------------------------------------------------------------------------------------------------------------------------------
+Mean Squared Error (MSE):
+MSE: 2.39
+This value indicates the average squared difference between the actual and predicted values. A lower MSE is better, but in this case, it suggests room for improvement in the model's predictions.
+
+Classification Report:
+Overall Accuracy: 80%
+This means that 80% of the predictions made by the model are correct.
+
+Precision:
+Class 0: 1.00
+Class 1: 0.50
+Class 2: 0.00
+Precision measures the ratio of true positive predictions to the total predicted positives. High precision indicates few false positives. The model performs very well for Class 0, moderately for Class 1, and poorly for Class 2.
+
+Recall:
+Class 0: 1.00
+Class 1: 1.00
+Class 2: 0.00
+Recall measures the ratio of true positive predictions to the total actual positives. High recall indicates few false negatives. The model has perfect recall for Classes 0 and 1 but fails to detect any instances of Class 2.
+
+F1-Score:
+Class 0: 1.00
+Class 1: 0.67
+Class 2: 0.00
+The F1-score is the harmonic mean of precision and recall. It provides a single measure of a model's performance. The model performs exceptionally well for Class 0, moderately for Class 1, and poorly for Class 2.
+
+Support:
+Class 0: 3
+Class 1: 1
+Class 2: 1
+Support is the number of actual occurrences of each class in the dataset. It shows that there are few samples for Class 1 and Class 2, which may affect the reliability of performance metrics for these classes.
+
+Confusion Matrix:
+----------------------
+[[3 0 0]
+ [0 1 0]
+ [0 1 0]]
+-----------------------
+The confusion matrix shows the actual versus predicted classifications.
+Class 0: All 3 samples are correctly classified.
+Class 1: 1 sample is correctly classified.
+Class 2: 1 sample is misclassified as Class 1.
+
+
+
+Summary:
+The model performs very well for Class 0, with perfect precision, recall, and F1-score.
+For Class 1, the model has moderate performance with perfect recall but lower precision, indicating some false positives.
+The model struggles with Class 2, failing to correctly predict any samples, which suggests a need for more data or model tuning for this class.
+Overall, the model shows good accuracy but requires improvement for better handling of minority classes.
